@@ -115,15 +115,26 @@ main h1{
 
 
 /* producto */
-
+.producto{
+    background-color: var(--primary-dark);
+}
 .producto__image{
-    width: 200px;
+    width: 100%;
 }
-.grid > div {
-  
-    background-color: #891190;
+.producto__nombre{
+    font-size: 2rem;
 }
 
+.producto__price{
+    color: var(--color-secudary);
+}
+
+.producto__price,
+.producto__nombre{
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
 
 
 .grid{
