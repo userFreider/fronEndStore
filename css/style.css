@@ -84,16 +84,39 @@ header{
     justify-content: center;
     padding: 1rem 0;
     background-color: var(--primary-dark);
-    gap: 2rem;
+    *gap: 2rem;
     
 }
 
 .nav__link{
     font-size: 2rem;
     color: white;
+    /*margin-left: 2rem;*/
 }
 
 .nav__link--active,
 .nav__link:hover{
     color: var(--color-secudary);
+}
+
+/*.nav__link:last-of-type{
+    margin-right: 0;
+}
+*/
+
+/* main */
+
+main h1{
+    text-align: center;
+    color: var(--color-secudary);
+
+}
+
+
+/* footer */
+.footer{
+    padding: 1rem 0;
+    background-color: var(--primary-dark);
+    margin-top: 10px;
+    text-align: center;
 }
